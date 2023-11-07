@@ -26,3 +26,7 @@ Programs
  10: Check if bit D6 of a data is 1. If yes move it to registerD else insert FFH in register D.
  
  11: Write a program in 8085 to multiply two 8-bit data 05H and 08H by using repetitive addition method and store the result at memory location 2500H.
+
+ 12: Write a program for 8086 to add two 8-bit numbers stored in data1 and data2. Store the result in the variable 'result' and display it in ASCII format.
+  
+ 13: Write a program in 8086 assembly to find the largest 8-bit number in an array and display it in ASCII format.
