@@ -9,7 +9,7 @@ It has an internal clock generator and functions on a clock cycle having a duty 
 8086 Microprocessor is an advanced version of the 8085 Microprocessor, designed by Intel in 1976. The number 8086 denotes the IC number of this microprocessor. It is a 16-bit microprocessor. It has 16 bits of the data bus, which is why it can read or write either 16 bits or 8 bits of data at a time. It has 20 bits of address lines that can access 220 address locations.
 This directory contains assembly language programs for Intel 8085.
 
-8085 Microprocessor Architecture Diagram
+**8085 Microprocessor Architecture Diagram**
 The 8085 microprocessor architecture diagram is as follows:
 ![8085-microprocessor-architecture-diagram](https://github.com/paritosh22/Microprocessor-8085-86/assets/122518099/80207035-6b08-4820-a8ed-88936b312f18)
 ![8085-microprocessor-pin-diagram](https://github.com/paritosh22/Microprocessor-8085-86/assets/122518099/01d3fb2f-97d2-4a1a-bde0-b9d6c2e1890d)
@@ -17,41 +17,46 @@ The 8085 microprocessor architecture diagram is as follows:
 8085 Microprocessor Architecture Diagram
 The 8085 microprocessor architecture has the following essential components:
 
-**Accumulator (A):
+**Accumulator (A):**
 The accumulator is an 8-bit register used for arithmetic and logical operations. It holds one of the operands during calculations and stores the result.
 
-General-Purpose Registers (B, C, D, E, H, L):
+**General-Purpose Registers (B, C, D, E, H, L):**
 The 8085 microprocessor has six general-purpose registers, each of which is 8 bits. These registers can be used for data manipulation and storage.
 
-Stack Pointer (SP):
+**Stack Pointer (SP):**
 The stack pointer is a 16-bit register that points to the top of the stack. The stack is used to store return addresses during subroutine calls, as well as local variables and other data.
 
-Program Counter (PC):
+**Program Counter (PC):**
 Program counter is a 16-bit register that holds the memory address of the following instruction for fetching and executing. It automatically increments after each instruction fetch, allowing programs to execute the next instruction quickly.
 
-Flag Register (F):
+**Flag Register (F):**
 The flag register is a 8-bit register that contains several flags that indicate the status of certain conditions after arithmetic and logical operations. The flags are as follows:
 
-Carry Flag (C): Set if there is a carry or borrow during arithmetic operations.
+**Carry Flag (C):**
+Set if there is a carry or borrow during arithmetic operations.
 
-Zero Flag (Z): Set if the result of an operation is zero.
+**Zero Flag (Z):**
+Set if the result of an operation is zero.
 
-Sign Flag (S): Set if the result of an operation is negative (MSB set).
+**Sign Flag (S):**
+Set if the result of an operation is negative (MSB set).
 
-Parity Flag (P): Set if the result of an operation has even parity.
+**Parity Flag (P):**
+Set if the result of an operation has even parity.
 
-Auxiliary Carry Flag (AC): Set if there is a carry or borrow from bit 3 to bit 4 during arithmetic operations.
+**Auxiliary Carry Flag (AC):**
+Set if there is a carry or borrow from bit 3 to bit 4 during arithmetic operations.
 
-Address and Data Buses:
+**Address and Data Buses:**
 The 8085 microprocessor has a 16-bit address bus, allowing it to address up to 64 KB of memory.
 
-Instruction Decoder and Control Unit:
+**Instruction Decoder and Control Unit:**
 The instruction decoder interprets the fetched instructions and generates control signals to execute the corresponding operation. 
 
-Interrupts:
+**Interrupts:**
 Interrupts allow the microprocessor to respond to external events and handle them in a prioritized manner.
 
-Input/Output (I/O) Ports:
+**Input/Output (I/O) Ports:**
 The 8085 microprocessor has a limited number of I/O pins. It uses I/O ports to connect with external devices for input and output operations.
 
 ## **Programs**
